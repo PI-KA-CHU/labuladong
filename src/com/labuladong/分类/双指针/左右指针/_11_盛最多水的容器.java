@@ -1,4 +1,4 @@
-package com.labuladong.分类.双指针;
+package com.labuladong.分类.双指针.左右指针;
 
 public class _11_盛最多水的容器 {
 
