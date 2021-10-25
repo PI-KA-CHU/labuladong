@@ -1,4 +1,6 @@
-package com.labuladong.分类.树;
+package com.labuladong.分类.树.前缀树;
+
+import com.labuladong.分类.树.Trie;
 
 public class _208_实现Trie_前缀树 {
 

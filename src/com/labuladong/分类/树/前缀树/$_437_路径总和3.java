@@ -1,4 +1,6 @@
-package com.labuladong.分类.树.二叉树;
+package com.labuladong.分类.树.前缀树;
+
+import com.labuladong.分类.树.二叉树.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
