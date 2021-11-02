@@ -1,4 +1,4 @@
-package com.labuladong.剑指Offer;
+package com.labuladong.剑指Offer.二分查找;
 
 import javax.xml.bind.annotation.XmlID;
 

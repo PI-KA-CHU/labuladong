@@ -1,8 +1,9 @@
 package com.labuladong.其他.单调栈;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Stack;
 
 public class _496_下一个更大元素 {
 
@@ -18,7 +19,7 @@ public class _496_下一个更大元素 {
      */
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = nums2.length - 1; i >= 0; i--) {

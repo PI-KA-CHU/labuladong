@@ -1,11 +1,12 @@
 package com.labuladong.其他.单调栈;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class _503_下一个更大元素2 {
 
     public int[] nextGreaterElements(int[] nums) {
-        Stack<Integer> s = new Stack<>();
+        Deque<Integer> s = new ArrayDeque<>();
         int n = nums.length;
         int[] ans = new int[n];
 
